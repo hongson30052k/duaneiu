@@ -128,7 +128,7 @@ function getCourseApi() {
             return response.json();
         })
         .then(function (data) {
-            console.log(data)
+            // console.log(data)
         })
 }
 function createCourse(data) {
@@ -144,7 +144,7 @@ function createCourse(data) {
             return response.json();
         })
         .then(function (data) {
-            console.log(data)
+            // console.log(data)
         })
 }
 
